@@ -1,0 +1,62 @@
+body
+{
+    background-color:tan;
+}
+
+
+.Table {
+   	  border: 3px inset gray;
+   	   background-color:#222;
+   	  margin-left: 22%;
+   	  margin-top: 12px;
+   	  width: 120px;
+   	  text-align: center;
+	  padding-left: 13px;
+	  padding-bottom:25px;
+	  padding-top:25px;
+	  border-radius:8px;
+	  position:relative;
+    left:200px;
+    top:100px;
+    height:40px;
+   	}
+.btnOp {
+    color:black;
+    background-color:#ff4561;
+    border-bottom:black 2px solid;	
+}
+
+.btnN {
+color:white;
+    background-color:#6f6f6f;
+    border-bottom:black 2px solid;
+    border-top:2px #6f6f6f solid;
+	
+}
+	
+.Table input {
+   	  border: 2px solid gray;
+   	  border-radius: 4px;
+   	  width: 35px;
+	  height:35px;
+   	  margin: 4px;
+	  
+	 
+   	}
+ #TextEdit {
+
+width: 250px;
+background-color:#bccd95;
+height: 30px;
+
+
+}
+#WideBtn {
+
+width: 200px;
+color:black;
+    background-color:#FF9933;
+    border-bottom:black 2px solid;
+    border-top:2px #FF9933 solid;
+
+}
