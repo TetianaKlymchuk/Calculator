@@ -9,4 +9,4 @@ The main modification is in Java Script: this code is quite simple and clear, mo
 
 Here you can find a Screenshot:
 
-![calculator2](https://cloud.githubusercontent.com/assets/28005338/25401013/1c7ecf62-29fd-11e7-8059-0fcf7e5bb434.png)
+![calculator_version2](https://cloud.githubusercontent.com/assets/28005338/25454674/fca19b3c-2ad5-11e7-91c6-658a38d5c910.png)
