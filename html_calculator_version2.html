@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html> 
+
+	<head>
+		<meta charset="UTF-8"/>
+		<title> Calculator </title>
+		<link href="css_version2.css" rel="stylesheet" type="text/css" />
+		<!--<script type="text/javascript" src="jquery-3.2.1.min.js"> </script>-->
+		
+	</head>
+	
+	<body>
+	
+	<form name="Calculation" action="">
+     <table class="Table" cellpadding="2" cellspacing="2">
+     <tr>
+         <td colspan="5" align="middle">
+         	<input id="TextEdit" name="ReadOut" type="Text" size="28" value="0" width="250px">
+         </td>
+     </tr>
+     <tr>
+         <td><input name="btnSeven" class="btnN" type="Button" value="7" onclick="PressedNum(7)"></td>
+         <td><input name="btnEight"  class="btnN" type="Button" value="8" onclick="PressedNum(8)"></td>
+         <td><input name="btnNine" class="btnN" type="Button" value="9" onclick="PressedNum(9)"></td>
+         <td><input name="btnClear" class="btnOp" type="Button" value="C" onclick="Clear()" /></td>
+         <td><input name="btnClearEntry" class="btnOp" type="Button" value="CE" onclick="ClearEntry()" /></td>
+       </tr>
+     <tr>
+         <td><input name="btnFour" class="btnN" type="Button" value="4" onclick="PressedNum(4)"></td>
+         <td><input name="btnFive" class="btnN" type="Button" value="5" onclick="PressedNum(5)"></td>
+         <td><input name="btnSix" class="btnN" type="Button" value="6" onclick="PressedNum(6)"></td>
+         <td><input name="btnPlus"  class="btnOp" type="Button" value="+" onclick="Operations('+')" /></td>
+         <td><input name="btnMultiply" class="btnOp"type="Button" value="*" onclick="Operations('*')" /></td>
+     </tr>
+     <tr>
+         <td><input name="btnOne" class="btnN" type="Button" value="1" onclick="PressedNum(1)"></td>
+         <td><input name="btnTwo" class="btnN" type="Button" value="2" onclick="PressedNum(2)"></td>
+         <td><input name="btnThree" class="btnN" type="Button" value="3" onclick="PressedNum(3)"></td>
+         <td><input name="btnMinus" class="btnOp" type="Button" value="-" onclick="Operations('-')" /></td>
+         <td ><input name="btnDivide" class="btnOp" type="Button" value=" / " onclick="Operations('/')" /></td>
+     </tr>
+     <tr>
+         <td><input name="btnZero" class="btnN" type="Button" value="0" onclick="PressedNum(0)"></td>
+         <td colspan="4"><input id="WideBtn" name="btnEquals" type="Button" value="=" onclick="Operations('=')"></td>
+         <td></td>
+         <td></td>
+     </tr>
+     </table>
+</form>
+
+	<script type="text/javascript" src="java_calculator_version2.js">	</script>
+	
+	</body>
